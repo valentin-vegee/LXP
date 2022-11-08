@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stu'Work Accueil</title>
+    <link rel="stylesheet" href="projet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/i18next/dist/umd/i18next.min.js"></script>
+<script>
+    function updateContent() {
+      const elements = document.getElementsByClassName("i18nelement");
+      for (let i = 0; i < elements.length; i++) {
+        const element = elements[i];
+        const k = element.getAttribute("data-i18n");
+        element.innerHTML = i18next.t(k);
+      }
+    }
+    
+    async function i18Loader() {
+      const langs = ["en", "ru"];
+      const jsons = await Promise.all(
+        langs.map((l) => fetch("src/i18/" + l + ".json").then((r) => r.json()))
+      );
+      const res = langs.reduce((acc, l, idx) => {
+        acc[l] = { translation: jsons[idx] };
+        return acc;
+      }, {});
+      await i18next.init({
+        lng: "en",
+        debug: true,
+        resources: res
+      });
+      updateContent();
+      i18next.on("languageChanged", () => {
+        updateContent();
+      });
+      const langSelector = document.getElementById("langSelector");
+      langSelector.removeAttribute("disabled");
+      langSelector.addEventListener("change", (e) => {
+        i18next.changeLanguage(e.target.value);
+      });
+    }
+    
+    i18Loader();
+    </script>
+</head>
+<body>
+    <section class="p1">
+      <!-- Première page -->
+      <div class="Titre">
+        <h1>Stu'Work</h1>
+      </div>
+      <div class="Sous-titre">
+        <h2>Develop Your Youth</h2>
+      </div>
+      <img class="flèche" src="flèche.png" alt="icône de flèche pointant vers le bas">
+    </section>
+    <section class="p2">
+      <!-- Deuxième page -->
+      <div class="icone">
+        <img class="int" src="int.png" alt="icône d'interrogation">
+      </div>
+      <div class="c2">
+        <div class="sous-titre">
+          <h3>Who Are We ?</h3>
+        </div>
+        <div class="text">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Est pellentesque elit ullamcorper dignissim. Morbi tristique senectus et netus. Libero id faucibus nisl tincidunt eget nullam non nisi. At volutpat diam ut venenatis tellus in. Ornare aenean euismod elementum nisi quis eleifend quam adipiscing. Cras tincidunt lobortis feugiat vivamus at augue eget</p>
+        </div>:
+      </div>
+    </section>
+    <section class="p3">
+      <div class="c3">
+        <div class="st">
+          <h3>Sudent ?</h3>
+        </div>
+        <div class="t">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Est pellentesque elit ullamcorper dignissim. Morbi tristique senectus et netus. Libero id faucibus nisl tincidunt eget nullam non nisi. At volutpat diam ut venenatis tellus in. Ornare aenean euismod elementum nisi quis eleifend quam adipiscing. Cras tincidunt lobortis feugiat vivamus at augue eget</p>
+        </div>
+      </div>
+      <div class="ic">
+        <img src="grad.png" alt="icône de chapeau de diplômé">
+      </div>
+    </section>
+    <section class="p4">
+      <div class="ico">
+        <img class="icn" src="usine.png" alt="icône d'usine">
+      </div>
+      <div class="c4">
+        <div class="sbt">
+          <h3>Company ?</h3>
+        </div>
+        <div class="te">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Est pellentesque elit ullamcorper dignissim. Morbi tristique senectus et netus. Libero id faucibus nisl tincidunt eget nullam non nisi. At volutpat diam ut venenatis tellus in. Ornare aenean euismod elementum nisi quis eleifend quam adipiscing. Cras tincidunt lobortis feugiat vivamus at augue eget</p>
+        </div>
+      </div>
+    </section>
+</body>
+</html>
