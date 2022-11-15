@@ -184,6 +184,7 @@ p{
     margin-left: 45%;
     height: fit-content;
 }
+/* The result shown for the sign up link is does not show style specifications via github while they are shown when opened via VS Code*/
 .st a{
     text-decoration: none;
     color: #57dcf2;
