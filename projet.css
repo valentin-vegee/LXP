@@ -187,21 +187,6 @@ p{
 .st a{
     text-decoration: none;
     color: #57dcf2;
-}
-.st a::after{
-    content: '';
-    background:#57dcf2;
-    width: 0;
-    height: 2px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    transition: width 0.5s;
-    
-}
-.st a:hover::after{
-    width: 100%;
-}
 .t{
     color: #f7f7f7;
     margin-right: -20%;
