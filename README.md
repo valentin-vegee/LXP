@@ -7,6 +7,15 @@ How we are planning to break down the project:
   
   1) For the first due date, we made the home-page, a header and a sign-up page for the students.
   2) We then plan on improving our first repository following your comments about it, and with our improvements in HTML and CSS, and make the rest of the website, which mainly consists in a sign-up page for the recruiters, and a sort of job offers page, in the same spirit as platforms like indeed.
+  (Being not allowed to use Java Script for this project, we will only work on the design aspect of the parts of our website that would require Java-Script)
   
 The AGILE method:
   As mentioned before, after agreeing on an idea and a theme, we started designing our wire-frame, then we started developin our website, with the home-page, a header and a sign-up page. We then submitted our project to you, kind of acting as our review, and will begin the cycle again, following the comments made on your review.
+  We chose the AGILE method, because it was the one that seemed most efficient for our project, knowledge and  instructions given.
+  
+The task distribution:
+  Home-page (Oriane Houssin): I chose to make the home-page, because I had some difficulties working with the divs, and grids, problems that I learned to overcome, building the home-page, by looking solutions on the internet, and progressing in the certifications on Solo Learning. I also had a problem of organisation in my code building, (which also participated in my problems with the divs and grids) and so I tried making a code better organised, and intuitive in order to make it more intuitive for my partners on this project.
+  
+  Header (Flavien Patriarca):
+  
+  Sign-up page for students (Valentin Vegee):
