@@ -2,7 +2,7 @@
 LXP Dublin
 How we are planning to break down the project:
   1)  We applied the AGILE method, so we began by brainstorming to find an idea which is to make a website platform for job offers for students, where the job offers are related to their studies. For our theme, we chose digital.
-  2) We then made a wire-frame for the home-page, and are still improving it if we find better ideas on the way.
+  2) We then studied some benchmarls to get an idead of what we wanted our Home page to look like, then made a wire-frame for the home-page, and are still improving it if and when we find better ideas or ameliorations on the way.
   3) Then we started building our website with HTML and CSS.
   
   1) For the first due date, we made the home-page, a header and a sign-up page for the students.
