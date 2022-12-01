@@ -67,79 +67,52 @@ nav{
 }
 /*Home page*/
 body{
-    background-color: #7ed957;
-    font-family: "Varela Round";
+    font-family: "Bebas Neue";
     margin: 0px 0px 0px 0px;
     padding: 0%;
     width: 100%;
 }
-.p1{
-    display: grid;
-    grid-template-columns: 2fr;
-    grid-gap:0px;
-    justify-content: space-between;
-    padding: 0%;
-    border: 0%;
-    width: 100%;
-}
-.pp1{
+/*Section 1*/
+.S1{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-content: space-between;
-    grid-gap:10px;
-    background-color: #7ed957;
+    background-image: linear-gradient(#7ed957, #f7f7f7);
     color:#f7f7f7;
     text-align: center;
     height: 740px;
     margin-top: -745px;
-    border: 0ch;
-    padding: 0%;
 }
-.c{
-    width: fit-content;
+.Case.1{
     margin-left: 10%;
     display: grid;
     grid-template-columns: 2fr;
-    grid-gap:-20px;
-    margin-top: 100px;
 }
-.work{
-    width: 150%;
-    height: 740px;
-}
-.im1{
-    width: fit-content;
-    height: 100%;
-    margin-right: 0%;
-    margin-left: 20%;
-}
-.Titre{
-    font-family: "Bebas Neue";
+.Titre_1{
+    padding-top: 160px;
     font-size: 100px;
-    height: 120px;
 }
-.Sous-titre{
-    font-family: "Bebas Neue";
+.Sous-titre_1{
     font-size:60px;
-    margin-top: 0%;
+    padding-top: 40px;
 }
-.p2{
-    background-color: #f7f7f7;
+.img_1{
+    overflow: hidden;
+}
+.img_1.0{
+    height: 652px;
+}
+
+
+.S2{
+    background-color:#f7f7f7;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: space-between;
-    grid-gap: 10px;
+    grid-template-columns: 0.5fr 1fr;
     text-align: center;
-    width: 100%;
 }
-.int{
+.img_2{
     height: 410px;
-    margin-right: 15%;
 }
-.c2{
-    margin-top: 5%;
-}
-.sous-titre{
+.Sous-titre_2{
     color: #f7f7f7;
     background-color: #57dcf2;
     width: fit-content;
@@ -148,11 +121,13 @@ body{
     font-size: 40px;
     padding-left:5%;
     padding-right: 5%;
+    margin-left: 100px;
+    margin-top: 50px;
 }
-.text{
+.Text_2{
     color: #7ed957;
     margin-right: 20%;
-    margin-left: -20%;
+    margin-left: 50px;
     margin-top: 5%;
     width: fit-content;
     height: fit-content;  
@@ -160,20 +135,14 @@ body{
 p{
     font-size: medium;
 }
-.p3{
+.S3{
     background-color: #57dcf2;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-content: space-between;
-    grid-gap: 10px;
     text-align: center;
     height: 414.8px ;
-    width: 100%;
 }
-.c3{
-    margin-top: 5%;
-}
-.st{
+.Sous_titre_3{
     background-color: #f7f7f7;
     color: #57dcf2;
     width: fit-content;
@@ -182,59 +151,49 @@ p{
     padding-left: 5%;
     padding-right: 5%;
     margin-left: 45%;
-    height: fit-content;
+    margin-top: 50px;
 }
 /* The result shown for the sign up link is does not show style specifications via github while they are shown when opened via VS Code*/
-.st a{
+.Sous-titre_3 a{
     text-decoration: none;
     color: #57dcf2;
 }
-.t{
+.Text_3{
     color: #f7f7f7;
     margin-right: -20%;
     margin-left: 10%;
-    margin-top: 5%;
-    width: fit-content;
-    height: fit-content;
+    padding-top: 40px;
 }
-.ic{
+.img_3{
     margin-left: 15%;
     margin-top: 10%;
 }
-.p4{
+.S4{
     background-color: #7ed957;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
-    justify-content: center;
     height: 414.8px;
     text-align: center;
 }
-.ico{
-    margin-right: 25%;
-}
-.icn{
+.img_4{
     height: 410px;
 }
-.c4{
-    margin-top: 5%;
-}
-.sbt{
+.Sous-titre_4{
     font-size: 40px;
     padding-left: 5%;
     padding-right: 5%;
     border-radius: 30px;
     width: fit-content;
-    height: fit-content;
     background-color: #f7f7f7;
     color: #7ed957;
     margin-left: 5%;
+    margin-top: 50px;
 }
-.te{
+.Text_4{
     color: #f7f7f7;
     margin-right: 20%;
     margin-left: -20%;
-    margin-top: 5%;
+    padding-top: 40px;
     width: fit-content;
     height: fit-content;
 }

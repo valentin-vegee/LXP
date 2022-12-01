@@ -9,50 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
-<!--<script src="https://unpkg.com/i18next/dist/umd/i18next.min.js"></script>
-<script>
-    function updateContent() {
-      const elements = document.getElementsByClassName("i18nelement");
-      for (let i = 0; i < elements.length; i++) {
-        const element = elements[i];
-        const k = element.getAttribute("data-i18n");
-        element.innerHTML = i18next.t(k);
-      }
-    }
-    
-    async function i18Loader() {
-      const langs = ["en", "ru"];
-      const jsons = await Promise.all(
-        langs.map((l) => fetch("src/i18/" + l + ".json").then((r) => r.json()))
-      );
-      const res = langs.reduce((acc, l, idx) => {
-        acc[l] = { translation: jsons[idx] };
-        return acc;
-      }, {});
-      await i18next.init({
-        lng: "en",
-        debug: true,
-        resources: res
-      });
-      updateContent();
-      i18next.on("languageChanged", () => {
-        updateContent();
-      });
-      const langSelector = document.getElementById("langSelector");
-      langSelector.removeAttribute("disabled");
-      langSelector.addEventListener("change", (e) => {
-        i18next.changeLanguage(e.target.value);
-      });
-    }
-    
-    i18Loader();
-    </script>-->
 </head>
 <body>
-    <section class="p1">
+  <!-- Première Section -->
+    <section>
       <div class="header">
         <nav>
             <img src="Ew-logo-modified.png" class="logo">
@@ -70,57 +30,51 @@
             </ul>
         </nav>
       </div>
-      <!-- Première page -->
-      <div class="pp1">
-        <div class="c">
-          <div class="Titre">
+      <div class="S1">
+        <div class="Case.1">
+          <div class="Titre_1">
             <h1><u>Stu'Work</u></h1>
           </div>
-          <div class="Sous-titre">
+          <div class="Sous-titre_1">
             <h2>Develop Your Youth</h2>
           </div>
         </div>
-        <div class="im1">
-          <img class="work" src="../../Data/work.png" alt="picture of young people on a computer">
+        <div class="img_1">
+          <img class="img_1.0" src="../../Data/work.png" alt="picture of young people on a computer">
         </div>
       </div>
     </section>
-    <section class="p2">
-      <!-- Deuxième page -->
-      <div class="icone">
-        <img class="int" src="../../Data/int.png" alt="icône d'interrogation">
-      </div>
-      <div class="c2">
-        <div class="sous-titre">
+  <!-- Deuxième Section -->
+    <section class="S2">
+      <img class="img_2" src="../../Data/int.png" alt="icône d'interrogation">
+      <div class="Case_2">
+        <div class="Sous-titre_2">
           <h3>Who Are We ?</h3>
         </div>
-        <div class="text">
+        <div class="Text_2">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Est pellentesque elit ullamcorper dignissim. Morbi tristique senectus et netus. Libero id faucibus nisl tincidunt eget nullam non nisi. At volutpat diam ut venenatis tellus in. Ornare aenean euismod elementum nisi quis eleifend quam adipiscing. Cras tincidunt lobortis feugiat vivamus at augue eget</p>
         </div>
       </div>
     </section>
-    <section class="p3">
-      <div class="c3">
-        <div class="st">
+  <!-- Troisième Section -->
+    <section class="S3">
+      <div class="Case_3">
+        <div class="Sous-titre_3">
           <a href="../SignUp/page_register_etudiant.html" target="_blank"><h3>Student !</h3></a>
         </div>
-        <div class="t">
+        <div class="Text_3">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Est pellentesque elit ullamcorper dignissim. Morbi tristique senectus et netus. Libero id faucibus nisl tincidunt eget nullam non nisi. At volutpat diam ut venenatis tellus in. Ornare aenean euismod elementum nisi quis eleifend quam adipiscing. Cras tincidunt lobortis feugiat vivamus at augue eget</p>
         </div>
       </div>
-      <div class="ic">
-        <img src="../../Data/grad.png" alt="icône de chapeau de diplômé">
-      </div>
+      <img clas="img_3" src="../../Data/grad.png" alt="icône de chapeau de diplômé">
     </section>
-    <section class="p4">
-      <div class="ico">
-        <img class="icn" src="../../Data/usine.png" alt="icône d'usine">
-      </div>
-      <div class="c4">
-        <div class="sbt">
+    <section class="S4">
+      <img class="img_4" src="../../Data/usine.png" alt="icône d'usine">
+      <div class="Case_4">
+        <div class="Sous-titre_4">
           <h3>Company !</h3>
         </div>
-        <div class="te">
+        <div class="Text_4">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Est pellentesque elit ullamcorper dignissim. Morbi tristique senectus et netus. Libero id faucibus nisl tincidunt eget nullam non nisi. At volutpat diam ut venenatis tellus in. Ornare aenean euismod elementum nisi quis eleifend quam adipiscing. Cras tincidunt lobortis feugiat vivamus at augue eget</p>
         </div>
       </div>
