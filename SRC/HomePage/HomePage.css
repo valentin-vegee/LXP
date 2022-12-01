@@ -82,7 +82,7 @@ body{
     height: 740px;
     margin-top: -745px;
 }
-.Case.1{
+.Case_1{
     margin-left: 10%;
     display: grid;
     grid-template-columns: 2fr;
@@ -98,7 +98,7 @@ body{
 .img_1{
     overflow: hidden;
 }
-.img_1.0{
+.img_1_0{
     height: 652px;
 }
 
