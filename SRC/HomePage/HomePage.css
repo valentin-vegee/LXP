@@ -1,4 +1,4 @@
-/*Header*/
+/*HEADER*/
 * {
 	margin: 0;
     padding: 0;
@@ -65,18 +65,22 @@ nav{
 #element{
     background:url(Contact.png) no-repeat;
 }
-/*Home page*/
+
 body{
     font-family: "Bebas Neue";
     margin: 0px 0px 0px 0px;
     padding: 0%;
     width: 100%;
 }
-/*Section 1*/
+p{
+    font-size: large;
+}
+
+/*SECTION 1*/
 .S1{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-image: linear-gradient(#7ed957, #f7f7f7);
+    background-image: linear-gradient(#7ed957 80%, #f7f7f7 );
     color:#f7f7f7;
     text-align: center;
     height: 740px;
@@ -102,7 +106,7 @@ body{
     height: 652px;
 }
 
-
+/*SECTION 2*/
 .S2{
     background-color:#f7f7f7;
     display: grid;
@@ -111,30 +115,30 @@ body{
 }
 .img_2{
     height: 410px;
+    padding-left: 200px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 .Sous-titre_2{
     color: #f7f7f7;
     background-color: #57dcf2;
-    width: fit-content;
-    height: fit-content;  
+    width: fit-content;  
     border-radius: 30px;
     font-size: 40px;
     padding-left:5%;
     padding-right: 5%;
-    margin-left: 100px;
-    margin-top: 50px;
+    margin-left: 263px;
+    margin-top: 90px;
 }
 .Text_2{
     color: #7ed957;
-    margin-right: 20%;
-    margin-left: 50px;
-    margin-top: 5%;
-    width: fit-content;
-    height: fit-content;  
+    margin-right: 170px;
+    margin-left: 150px;
+    margin-top: 50px;
 }
-p{
-    font-size: medium;
-}
+
+
+/*SECTION 3*/
 .S3{
     background-color: #57dcf2;
     display: grid;
@@ -142,7 +146,7 @@ p{
     text-align: center;
     height: 414.8px ;
 }
-.Sous_titre_3{
+.Sous-titre_3{
     background-color: #f7f7f7;
     color: #57dcf2;
     width: fit-content;
@@ -153,7 +157,6 @@ p{
     margin-left: 45%;
     margin-top: 50px;
 }
-/* The result shown for the sign up link is does not show style specifications via github while they are shown when opened via VS Code*/
 .Sous-titre_3 a{
     text-decoration: none;
     color: #57dcf2;
@@ -165,9 +168,11 @@ p{
     padding-top: 40px;
 }
 .img_3{
-    margin-left: 15%;
-    margin-top: 10%;
+    padding-left: 170px;
+    padding-top: 60px;
 }
+
+/*SECTION 4*/
 .S4{
     background-color: #7ed957;
     display: grid;
