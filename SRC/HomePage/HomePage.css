@@ -101,15 +101,16 @@ p{
 
 /*SECTION 2*/
 .S2{
-    background : linear-gradient(#f7f7f7 70%, #57dcf2);
+    background : linear-gradient(#f7f7f7 80%, #57dcf2);
     display: grid;
     grid-template-columns: 0.5fr 1fr;
     text-align: center;
+    height: 450px;
 }
 .img_2{
-    height: 410px;
-    padding-left: 200px;
-    padding-top: 40px;
+    height: 330px;
+    padding-left: 225px;
+    padding-top: 30px;
     padding-bottom: 40px;
 }
 .Sous-titre_2{
@@ -121,7 +122,7 @@ p{
     padding-left:5%;
     padding-right: 5%;
     margin-left: 263px;
-    margin-top: 90px;
+    margin-top: 45px;
 }
 .Text_2{
     color: #7ed957;
@@ -133,11 +134,11 @@ p{
 
 /*SECTION 3*/
 .S3{
-    background: linear-gradient(#57dcf2 70%, #7ed957);
+    background: linear-gradient(#57dcf2 80%, #7ed957);
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
-    height: 414.8px ;
+    height: 450px ;
 }
 .Sous-titre_3{
     background-color: #f7f7f7;
@@ -148,7 +149,7 @@ p{
     padding-left: 5%;
     padding-right: 5%;
     margin-left: 306px;
-    margin-top: 80px;
+    margin-top: 45px;
 }
 .Sous-titre_3 a{
     text-decoration: none;
