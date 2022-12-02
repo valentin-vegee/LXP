@@ -132,8 +132,8 @@ p{
 }
 .Text_2{
     color: #7ed957;
-    margin-right: 170px;
-    margin-left: 150px;
+    padding-right: 170px;
+    padding-left: 150px;
     margin-top: 50px;
 }
 
@@ -154,8 +154,8 @@ p{
     font-size: 40px;
     padding-left: 5%;
     padding-right: 5%;
-    margin-left: 45%;
-    margin-top: 50px;
+    margin-left: 306px;
+    margin-top: 80px;
 }
 .Sous-titre_3 a{
     text-decoration: none;
@@ -163,9 +163,9 @@ p{
 }
 .Text_3{
     color: #f7f7f7;
-    margin-right: -20%;
-    margin-left: 10%;
-    padding-top: 40px;
+    margin-right: 0px;
+    padding-left: 170px;
+    margin-top: 50px;
 }
 .img_3{
     padding-left: 170px;
@@ -176,12 +176,14 @@ p{
 .S4{
     background-color: #7ed957;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0.5fr 1fr;
     height: 414.8px;
     text-align: center;
 }
 .img_4{
-    height: 410px;
+    height: 330px;
+    padding-left: 160px;
+    padding-top: 20px;
 }
 .Sous-titre_4{
     font-size: 40px;
@@ -191,15 +193,13 @@ p{
     width: fit-content;
     background-color: #f7f7f7;
     color: #7ed957;
-    margin-left: 5%;
-    margin-top: 50px;
+    margin-left: 290px;
+    margin-top: 80px;
 }
 .Text_4{
     color: #f7f7f7;
-    margin-right: 20%;
-    margin-left: -20%;
-    padding-top: 40px;
-    width: fit-content;
-    height: fit-content;
+    padding-right: 170px;
+    padding-left: 130px;
+    margin-top: 50px;
 }
 
