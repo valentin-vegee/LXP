@@ -3,10 +3,37 @@
     color: aliceblue;
     display: grid;
     grid-template-columns: 1fr 0.75fr 0.75fr;
+    text-align: center;
+    height: 300px;
+}
+p{
+    width: fit-content;
+    font-size: 15px;
 }
 .F_case_1{
     font-family: "Bebas Neue";
+    font-size: 85px;
+    height: fit-content;
+    padding-top: 14px;
 }
 .F_h2{
     font-family: "Bebas Neue";
+    font-size: 40px;
+}
+img.F_img{
+    width: 18px;
+    float: left;
+    padding-left: 20px;
+    padding-right: 5px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 15px;
+}
+ul{
+    list-style: none;
+}
+li{
+    padding-bottom: 5px;
 }
