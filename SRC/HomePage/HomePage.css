@@ -197,3 +197,55 @@ p{
     margin-top: 50px;
 }
 
+/*FOOTER*/
+.Footer{
+    background-color: #2c4f40;
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr 0.75fr 0.75fr;
+    text-align: center;
+    height: 300px;
+}
+p{
+    font-size: 15px;
+}
+p.phone{
+    width: 267px;
+}
+p.mail{
+    width: 282px;
+}
+p.linkedin{
+    width: 311px;
+}
+.F_case_1{
+    font-family: "Bebas Neue";
+    font-size: 85px;
+    height: fit-content;
+    padding-top: 14px;
+}
+.F_h2{
+    font-family: "Bebas Neue";
+    font-size: 40px;
+}
+img.F_img{
+    width: 18px;
+    float: left;
+    padding-left: 61px;
+    padding-right: 5px;
+}
+img.mail_img{
+    padding-top: 5px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 15px;
+}
+ul{
+    list-style: none;
+}
+li{
+    padding-bottom: 5px;
+}
+
