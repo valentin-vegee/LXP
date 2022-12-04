@@ -7,8 +7,16 @@
     height: 300px;
 }
 p{
-    width: fit-content;
     font-size: 15px;
+}
+p.phone{
+    width: 267px;
+}
+p.mail{
+    width: 282px;
+}
+p.linkedin{
+    width: 311px;
 }
 .F_case_1{
     font-family: "Bebas Neue";
@@ -23,8 +31,11 @@ p{
 img.F_img{
     width: 18px;
     float: left;
-    padding-left: 20px;
+    padding-left: 61px;
     padding-right: 5px;
+}
+img.mail_img{
+    padding-top: 5px;
 }
 a{
     text-decoration: none;
