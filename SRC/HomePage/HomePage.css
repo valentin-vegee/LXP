@@ -145,8 +145,8 @@ h3{
     animation-name: colorchange;
 }
 @keyframes colorchange{
-    0% {background-color: #f7f7f7;}
-    100% {background-color: bisque;}
+    0% {color: #7ed957;}
+    100% {background-color:darkgreen;}
 }
 .Student_text{
     color: #f7f7f7;
