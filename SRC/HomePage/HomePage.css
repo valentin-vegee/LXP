@@ -102,7 +102,7 @@ h3{
     display: grid;
     grid-template-columns: 0.5fr 1fr;
     text-align: center;
-    height: 450px;
+    height: 335px;
 }
 .img_Who-Are-We{
     height: 330px;
@@ -134,7 +134,7 @@ h3{
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
-    height: 450px ;
+    height: 335px ;
 }
 .Student_title{
     background-color: #f7f7f7;
@@ -166,7 +166,7 @@ h3{
     background-color: #7ed957;
     display: grid;
     grid-template-columns: 0.5fr 1fr;
-    height: 414.8px;
+    height: 335px;
     text-align: center;
 }
 .Company_img{
