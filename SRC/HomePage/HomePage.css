@@ -139,11 +139,7 @@ h3{
     color: #57dcf2;
 }
 .Student_title a:hover{
-    animation-name: colorchange;
-}
-@keyframes colorchange{
-    0% {color: #7ed957;}
-    100% {background-color:darkgreen;}
+    color: bisque;
 }
 .Student_text{
     color: #f7f7f7;
