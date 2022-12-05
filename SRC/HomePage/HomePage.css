@@ -150,6 +150,9 @@ h3{
     text-decoration: none;
     color: #57dcf2;
 }
+.Student_title a:hover{
+    background-color: darkgray;
+}
 .Student_text{
     color: #f7f7f7;
     margin-right: 0px;
@@ -183,6 +186,11 @@ h3{
     border-radius: 30px;
     padding-left:5%;
     padding-right: 5%;
+}
+.Company_title a{
+    text-decoration: none;
+    color: #7ed957;
+    
 }
 .Company_text{
     color: #f7f7f7;
