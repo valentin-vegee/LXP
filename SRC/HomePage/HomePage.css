@@ -78,12 +78,6 @@ p{
 h3{
     font-size: 40px;
 }
-.h3{
-    width: fit-content;  
-    border-radius: 30px;
-    padding-left:5%;
-    padding-right: 5%;
-}
 
 /*SECTION 1*/
 .Section_HomePage{
@@ -121,6 +115,10 @@ h3{
     background-color: #57dcf2;
     margin-left: 263px;
     margin-top: 45px;
+    width: fit-content;  
+    border-radius: 30px;
+    padding-left:5%;
+    padding-right: 5%;
 }
 .Who-Are-We_text{
     color: #7ed957;
@@ -143,6 +141,10 @@ h3{
     color: #57dcf2;
     margin-left: 306px;
     margin-top: 45px;
+    width: fit-content;  
+    border-radius: 30px;
+    padding-left:5%;
+    padding-right: 5%;
 }
 .Student_title a{
     text-decoration: none;
@@ -177,6 +179,10 @@ h3{
     color: #7ed957;
     margin-left: 290px;
     margin-top: 80px;
+    width: fit-content;  
+    border-radius: 30px;
+    padding-left:5%;
+    padding-right: 5%;
 }
 .Company_text{
     color: #f7f7f7;
