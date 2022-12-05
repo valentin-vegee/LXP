@@ -10,28 +10,29 @@ p{
     font-size: 15px;
 }
 p.phone{
-    width: 267px;
+    width: 315px;
 }
 p.mail{
-    width: 282px;
+    width: 323px;
 }
 p.linkedin{
-    width: 311px;
+    width: 345px;
 }
 .F_case_1{
     font-family: "Bebas Neue";
     font-size: 85px;
     height: fit-content;
-    padding-top: 14px;
+    padding-top: 80px;
 }
 .F_h2{
     font-family: "Bebas Neue";
     font-size: 40px;
+    padding-top: 50px;
 }
 img.F_img{
-    width: 18px;
+    width: 20px;
     float: left;
-    padding-left: 61px;
+    margin-left: 135px;
     padding-right: 5px;
 }
 img.mail_img{
@@ -44,7 +45,8 @@ a{
 }
 ul{
     list-style: none;
+    margin-top: 35px;
 }
 li{
-    padding-bottom: 5px;
+    padding-bottom: 15px;
 }
