@@ -1,0 +1,91 @@
+body{
+    font-family: "Bebas Neue";
+    margin: unset;
+}
+h2{
+    font-size: 50px;
+}
+.student_informations_section{
+    background-color: #7ed957;
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 50px;
+    margin: 20px;
+    align-items: center;
+}
+img.profil_picture{
+    width: 200px;
+    padding-left: 50px;
+}
+li{
+    padding-bottom: 5px;
+}
+h3{
+    font-size: 38px;
+    margin: unset;
+}
+.student_sale_section{
+    margin: 50px;
+}
+h2.your_skills_title{
+    background-color: #7ed957;
+    border-radius: 30px;
+    margin-top: 100px;
+    font-size: 50px;
+    color: aliceblue;
+    width: fit-content;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.skills{
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+}
+.skills_name{
+    width: fit-content;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.skills_name h3{
+    padding-bottom: 10px;
+}
+.skills_prog{
+    padding-top: 25px;
+}
+.skill_prog{
+    width:670px;
+    background-color: darkgray;
+    padding: 3px;
+    border-radius: 20px;
+    margin-bottom: 28px;
+    text-align: center;
+}
+.skill_perc_1{
+    width: 100%;
+    font-size: 20px;
+    background-color: #57dcf2;
+    border-radius: 20px;
+    color: aliceblue;
+}
+.skill_perc_2{
+    width: 70%;
+    font-size: 20px;
+    background-color: #57dcf2;
+    border-radius: 20px;
+    color: aliceblue;
+}
+.skill_perc_3{
+    width: 90%;
+    font-size: 20px;
+    background-color: #57dcf2;
+    border-radius: 20px;
+    color: aliceblue;
+}
+h2.CV{
+    background-color: #7ed957;
+    color: aliceblue;
+    text-align: center;
+    margin: 120px;
+    border-radius: 30px;
+}
