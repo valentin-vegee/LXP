@@ -142,7 +142,7 @@ h3{
     color: #57dcf2;
 }
 .Student_title a:hover{
-    color: bisque;
+    transform: scale(1.5);
 }
 .Student_text{
     color: #f7f7f7;
