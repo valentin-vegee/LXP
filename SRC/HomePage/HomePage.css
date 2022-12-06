@@ -136,13 +136,14 @@ h3{
     border-radius: 30px;
     padding-left:5%;
     padding-right: 5%;
+    transition: ease .8s;
 }
 .Student_title a{
     text-decoration: none;
     color: #57dcf2;
 }
 .Student_title:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 .Student_text{
     color: #f7f7f7;
@@ -177,11 +178,15 @@ h3{
     border-radius: 30px;
     padding-left:5%;
     padding-right: 5%;
+    transition: ease .8s;
 }
 .Company_title a{
     text-decoration: none;
     color: #7ed957;
     
+}
+.Company_title:hover{
+    transform: scale(1.2);
 }
 .Company_text{
     color: #f7f7f7;
