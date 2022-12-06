@@ -19,11 +19,13 @@ nav{
     justify-content: space-between;
 }
 .logo{
+    margin-left: -30px;
     width: 85px;
     height : 100%;  
 }
 .nav-links{
     padding: 28px 0;
+    margin-top: 25px;
 }
 .nav-links li{
     display: inline-block;
@@ -55,6 +57,7 @@ nav{
     border-radius: 3px;
     cursor: pointer;
 }
+/*/header*/
 
 body{
     font-family: "Bebas Neue";
