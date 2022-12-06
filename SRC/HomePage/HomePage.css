@@ -141,7 +141,7 @@ h3{
     text-decoration: none;
     color: #57dcf2;
 }
-.Student_title a:hover{
+.Student_title:hover{
     transform: scale(1.5);
 }
 .Student_text{
